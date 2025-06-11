@@ -1,0 +1,243 @@
+.title {
+    text-align: center;
+    color: white;
+}
+
+.type {
+    color: white;
+    border: 3px black solid;
+    margin: 10px auto;
+    width: 250px;
+
+}
+
+.brown {
+    font-weight: 200;
+    text-indent: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+.fourimage {
+    display: inline-block;
+    text-align: center;
+}
+
+.dad {
+    margin-left: 10px;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp10959283.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.bob {
+    color: white;
+}
+
+.boss {
+    font-style: italic;
+    color: white;
+}
+
+.Avatar{
+    padding-top: 10px;
+}
+table {
+    width: 70%;
+    border: 3px solid black;
+    margin: auto;
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.container1q {
+
+    width: 960px;
+    margin: 0 auto;
+    background-image: url(https://avatars.mds.yandex.net/i?id=a36d3877f77e63ae56f00e38ddbbe05830a9f6e8-6372940-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container1{
+    width: 800px;
+    margin: 0 auto;
+    background-image: url(https://avatars.mds.yandex.net/i?id=a36d3877f77e63ae56f00e38ddbbe05830a9f6e8-6372940-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.loc {
+    color: white;
+    text-align: center;
+}
+
+.location1 {
+    font-weight: 200;
+    color: white;
+    text-indent: 10px;
+
+}
+
+.foto1 {
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.foto1:hover {
+    transform: scale(1.1);
+}
+
+table {
+    background-color: #2d2c38;
+    font-style: italic;
+    color: white;
+    font-size: 15;
+    font-weight: 900;
+}
+
+@media(max-width: 1000px) {
+
+
+    .container1q, .container1 {
+        width: 800px;
+    }
+
+}
+
+@media(max-width: 800px) {
+
+    .container1q, .container1 {
+        width: 700px;
+    }
+
+}
+
+@media(max-width: 700px) {
+
+    .container1q, .container1 {
+        width: 600px;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    .container1q, .container1 {
+        width: 500px;
+    }
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.world>img {
+    width: 500px;
+    text-align: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: gray;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 50px;
+}
+
+.nav-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.burger-btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.burger-line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease;
+}
+
+
+.menu {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 200px;
+    display: none;
+    flex-direction: column;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.menu a:hover {
+    background-color: #f9f9f9;
+}
+
+  .burger-btn.open .burger-line:nth-child(2) {
+    opacity: 0;
+  }
+  .burger-btn.open .burger-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .burger-btn.open .burger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
